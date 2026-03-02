@@ -1,10 +1,16 @@
 # two_sum takes two integer arguments and returns the sum of the integers
 def two_sum(a: int, b: int) -> int:    
-    pass
+  Result =  a + b 
+  return Result 
 
 # remove_vowels takes a string argument and return a string with all vowels removed
 def remove_vowels(s: str) -> str:
-    pass
+  vowels = ["a", "e" , "i", "o", "u"]
+  string = ""
+  for char in s:
+     if char not in  vowels:
+        string = string + char
+  return string
 
 # factorial takes an integer argument and returns the factorial result of that integer
 # factorial must use iteration and not the built-in factorial function
